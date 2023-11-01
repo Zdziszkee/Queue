@@ -4,9 +4,9 @@ Pytania
 - warunek if (tail > max_size)
        tail = 0
 - tail = tail % max_size
+
+- tail & max_size (tylko gdy size potega 2) 
            
-
-
 • Omów przykłady zastosowania kolejki?
     Kolejka zadań do wykonania (Task Queue): Kolejki są często wykorzystywane w systemach wielozadaniowych do kolejkowania zadań do wykonania.
     Kolejkowane w algorytmach np sortowanie radix
